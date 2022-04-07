@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GitHub User</string>
+    <string name="search">Enter a Github username</string>
+    <string name="user_not_found">User not found</string>
+    <string name="search_notification">Search the username</string>
+    <string name="description">User Avatar</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="follower">%d\n Follower</string>
+    <string name="following">%d\n Following</string>
+    <string name="repository">%d\n Repository</string>
+    <string name="company">Company Name</string>
+    <string name="location">Location</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="followers_title">Followers</string>
+    <string name="following_title">Following</string>
+    <string name="name_profile">%s\</string>
+    <string name="send">send</string>
+    <string name="favorite_user">Favorite User</string>
+    <string name="favorite">Favorite</string>
+    <string name="favorite_btn">Favorite Button</string>
+    <string name="setting">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="hint">Enter the github username..</string>
+    <string name="splash">SplashScreen</string>
+
+    <string-array name="tab_title">
+        <item>@string/followers_title</item>
+        <item>@string/following_title</item>
+    </string-array>
+</resources>

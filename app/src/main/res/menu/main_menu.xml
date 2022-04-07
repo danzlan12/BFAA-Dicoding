@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C4F5C">
+
+    <group android:menuCategory="container">
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_baseline_search_24"
+            android:title="@string/search"
+            app:actionViewClass="android.widget.SearchView"
+            app:showAsAction="collapseActionView|always" />
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/ic_settings_24"
+            android:title="@string/setting"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/favoriteBtn"
+            android:icon="@drawable/ic_favorite_24"
+            android:title="@string/favorite_user"
+            app:showAsAction="always" />
+    </group>
+</menu>

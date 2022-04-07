@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="SplashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+    </style>
+
+</resources>
